@@ -11,6 +11,7 @@
 		C5080CA2280D5D9500B48BFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080CA1280D5D9500B48BFD /* ContentView.swift */; };
 		C5080CA4280D5D9600B48BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5080CA3280D5D9600B48BFD /* Assets.xcassets */; };
 		C5080CA7280D5D9600B48BFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5080CA6280D5D9600B48BFD /* Preview Assets.xcassets */; };
+		C5080CAF280D5EE300B48BFD /* AddingCodableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5080CAE280D5EE300B48BFD /* AddingCodableConformance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C5080CA1280D5D9500B48BFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5080CA3280D5D9600B48BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5080CA6280D5D9600B48BFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5080CAE280D5EE300B48BFD /* AddingCodableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCodableConformance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		C5080C9E280D5D9500B48BFD /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				C5080CAD280D5E2200B48BFD /* Day 49 */,
 				C5080C9F280D5D9500B48BFD /* CupcakeCornerApp.swift */,
 				C5080CA1280D5D9500B48BFD /* ContentView.swift */,
 				C5080CA3280D5D9600B48BFD /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				C5080CA6280D5D9600B48BFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5080CAD280D5E2200B48BFD /* Day 49 */ = {
+			isa = PBXGroup;
+			children = (
+				C5080CAE280D5EE300B48BFD /* AddingCodableConformance.swift */,
+			);
+			path = "Day 49";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5080CA2280D5D9500B48BFD /* ContentView.swift in Sources */,
+				C5080CAF280D5EE300B48BFD /* AddingCodableConformance.swift in Sources */,
 				C5080CA0280D5D9500B48BFD /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
