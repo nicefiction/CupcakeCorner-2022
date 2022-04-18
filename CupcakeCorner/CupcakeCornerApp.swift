@@ -13,7 +13,7 @@ struct CupcakeCornerApp: App {
         
         WindowGroup {
             // ContentView()
-            SendingAndReceivingCodableData()
+            LoadingAnImage()
         }
     }
     
